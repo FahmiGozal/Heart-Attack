@@ -234,5 +234,6 @@ results_ord.style.bar(subset=['Accuracy', 'Bal Acc.'], vmin=0, vmax=100, color='
 
 confusion_matrix = metrics.confusion_matrix(y_test,pred)
 
+print(f'The Best ML Model is {results_ord.iloc[0].Model} with an accuracy of {results_ord.iloc[0].Accuracy}')
 
 
